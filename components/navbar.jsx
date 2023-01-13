@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 py-4 px-2">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <img src="/picklogo.png" />
+        <Image alt="" width={70} height={30} src="/picklogo.png" />
       </div>
       <div id="menu" className="flex-grow flex items-center w-auto">
         <div className="text-sm flex-grow">
