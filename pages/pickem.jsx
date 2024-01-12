@@ -62,7 +62,7 @@ export default function Pickem() {
             </label>
             {registeredUser && (
               <span className="text-xs text-red-500 py-1">
-                * El nombre <b>{user}</b> esta duplicado utiliza otro nombre
+                * El nombre <b>{user}</b> está duplicado utiliza otro nombre
               </span>
             )}
           </div>
