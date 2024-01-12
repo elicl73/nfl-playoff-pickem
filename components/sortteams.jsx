@@ -58,8 +58,8 @@ export default function SortTeams({ availableTeams, newUser }) {
           {i === current && (
             <div className="flex items-center justify-center flex-col mb-6">
               {end && (
-                <span className="text-xl text-black font-bold pb-4">
-                  {newUser}
+                <span className="text-sm text-black pb-4">
+                  <b>"{newUser}"</b> te toco el equipo
                 </span>
               )}
               <Team teamId={!end ? team.id : selectedTeam} />

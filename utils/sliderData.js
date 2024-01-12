@@ -1,51 +1,51 @@
 export const SlideData = [
   {
-    id: '12',
+    id: '33',
   },
   {
     id: '2',
   },
   {
-    id: '4',
+    id: '12',
   },
   {
-    id: '30',
+    id: '34',
   },
   {
-    id: '24',
-  },
-  {
-    id: '33',
+    id: '5',
   },
   {
     id: '15',
   },
   {
-    id: '21',
+    id: '23',
   },
   {
     id: '25',
   },
   {
-    id: '16',
+    id: '6',
+  },
+  {
+    id: '8',
   },
   {
     id: '27',
   },
   {
-    id: '6',
+    id: '21',
   },
   {
-    id: '19',
+    id: '14',
   },
   {
-    id: '26',
+    id: '9',
   },
 ]
 
 export const SlideDataAFC = [
   {
-    id: '12',
+    id: '33',
     position: 1,
   },
   {
@@ -53,38 +53,38 @@ export const SlideDataAFC = [
     position: 2,
   },
   {
-    id: '4',
+    id: '12',
     position: 3,
   },
   {
-    id: '30',
+    id: '34',
     position: 4,
   },
   {
-    id: '24',
+    id: '5',
     position: 5,
   },
   {
-    id: '33',
+    id: '15',
     position: 6,
   },
   {
-    id: '15',
+    id: '23',
     position: 7,
   },
 ]
 
 export const SlideDataNFC = [
   {
-    id: '21',
+    id: '25',
     position: 1,
   },
   {
-    id: '25',
+    id: '6',
     position: 2,
   },
   {
-    id: '16',
+    id: '8',
     position: 3,
   },
   {
@@ -92,15 +92,15 @@ export const SlideDataNFC = [
     position: 4,
   },
   {
-    id: '6',
+    id: '21',
     position: 5,
   },
   {
-    id: '19',
+    id: '14',
     position: 6,
   },
   {
-    id: '26',
+    id: '9',
     position: 7,
   },
 ]
