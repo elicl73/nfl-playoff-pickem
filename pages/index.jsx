@@ -7,7 +7,7 @@ export default function Home() {
     <div className="m-4">
       <p>
         Quiniela entra amigos para los playoff de la NFL, el costo de la entrada
-        es de $500.00 pesos, los equipos los esogera el sistema de manera
+        es de $500.00 pesos, los equipos los esoge el sistema de manera
         aleatoria; el usuario que tenga el equipo ganador del Super Bowl se
         llevara el dinero acumulado.
       </p>

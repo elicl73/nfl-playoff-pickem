@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useRouter } from 'next/router'
 import useSWR from 'swr'
 
 import SortTeams from 'components/sortteams'
@@ -14,6 +15,7 @@ export default function Pickem() {
   const [user, setUser] = useState('')
   const [registeredUser, setRegisteredUser] = useState(false)
   const [start, setStart] = useState(false)
+  const router = useRouter()
 
   const handleChange = (event) => {
     setRegisteredUser(false)
@@ -39,7 +41,7 @@ export default function Pickem() {
 
   return (
     <>
-      <div className="flex items-center justify-center flex-col m-8">
+      <div className="flex items-center justify-center flex-col m-4">
         <form
           className={`${start ? 'invisible' : length === 0 && 'invisible'}`}
           onSubmit={toggleRunning}
@@ -84,9 +86,16 @@ export default function Pickem() {
             </>
           )}
           {length === 0 && (
-            <span className="text-lg font-bold text-red-500 py-1">
-              ¡Ya no hay equipos!
-            </span>
+            <div>
+              <p>¡ Ya se seleccionarón todos los equipos !</p>
+              <button
+                type="button"
+                onClick={() => router.push('/noteams')}
+                className="mt-6 mx-auto text-center mr-3 font-medium rounded-lg text-sm px-5 py-2.5 w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Ver Resultados
+              </button>
+            </div>
           )}
         </div>
       </div>
