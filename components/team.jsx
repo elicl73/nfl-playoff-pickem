@@ -20,11 +20,11 @@ export default function Team({ teamId, smallSize = false }) {
   if (!data) return
 
   return (
-    <>
+    <div className="flex flex-col items-center">
       <Image src={`${data.logo}`} width={wSize} height={hSize} alt="" />
       <span className={`font-bold ${smallSize && 'text-xs'}`}>
         {data.shortDisplayName}
       </span>
-    </>
+    </div>
   )
 }
