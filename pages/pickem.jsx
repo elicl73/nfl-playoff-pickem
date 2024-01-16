@@ -87,7 +87,9 @@ export default function Pickem() {
           )}
           {length === 0 && (
             <div>
-              <p>¡ Ya se seleccionarón todos los equipos !</p>
+              <span className="text-lg font-bold text-red-500 py-1">
+                ¡Ya no hay equipos!
+              </span>
               <button
                 type="button"
                 onClick={() => router.push('/noteams')}
