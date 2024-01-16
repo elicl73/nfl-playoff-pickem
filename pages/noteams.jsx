@@ -23,7 +23,9 @@ export default function NoTeams() {
       {data.map((user) => (
         <div
           key={user.teamId}
-          className="flex items-center gap-6 border-2 border-gray-500 rounded-md w-5/6 m-1"
+          className={`flex items-center gap-6 border-2 border-gray-500 rounded-md w-5/6 m-1 ${
+            user.disqualified && 'bg-gray-800 text-white opacity-50'
+          }`}
         >
           <div className="pl-2 w-1/3">
             <Team teamId={user.teamSelected} smallSize={true} />

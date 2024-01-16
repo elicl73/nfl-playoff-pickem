@@ -13,6 +13,10 @@ const userPlayOffSchema = new Schema(
       require: [true, 'Please enter a team'],
       unique: [true, 'Team already selected'],
     },
+    disqualified: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     versionKey: false,
