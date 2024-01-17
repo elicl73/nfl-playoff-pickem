@@ -24,7 +24,7 @@ export default function NoTeams() {
         <div
           key={user.teamId}
           className={`flex items-center gap-6 border-2 border-gray-500 rounded-md w-5/6 m-1 ${
-            user.disqualified && 'bg-gray-800 text-white opacity-50'
+            user.disqualified && 'bg-gray-800 text-white opacity-30'
           }`}
         >
           <div className="pl-2 w-1/3">
