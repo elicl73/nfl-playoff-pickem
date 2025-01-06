@@ -46,7 +46,7 @@ export default function SortTeams({ availableTeams, newUser }) {
           await fetcher(availableTeams[randomTeam].id, newUser)
           setEnd(true)
         }
-      }, 100)
+      }, 110)
       return () => clearInterval(interval)
     }
   }, [current])
