@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="m-4">
       <p>
-        Quiniela entra amigos para los playoff de la NFL, el costo de la entrada
+        Quiniela entre amigos para los playoff de la NFL, el costo de la entrada
         es de $500.00 pesos, los equipos los escoge el sistema de manera
         aleatoria; el usuario que tenga el equipo ganador del Super Bowl se
         llevara el dinero acumulado.
