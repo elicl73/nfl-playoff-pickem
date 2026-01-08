@@ -13,6 +13,7 @@ export default async function handler(req, res) {
       try {
         const team = await Team.findOne({ id })
         if (!team) return res.status(404).json({ msg: 'Equipo no encontrado' })
+
         return res.status(200).json(team)
       } catch (error) {
         return res.status(500).json({ msg: error.message })
